@@ -1,0 +1,3 @@
+ports:
+  api_primary: 4000
+  api_secondary: 1350
