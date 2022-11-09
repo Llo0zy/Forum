@@ -1,0 +1,31 @@
+body { 
+    overflow: hidden;
+    background-color: #23405c;
+}
+
+#main-chat {
+    background-color: #1a1a3a;
+    opacity: 0.6;
+    color: white;
+
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    display: grid;
+    /* place-items: center; */
+    height: 80vh;
+    padding-bottom: 100%;
+}
+
+#lista-chats {
+    width: 18vw;
+    height: 80vh;
+    background-color: #29295f;
+
+    margin: auto;
+    margin-right: 7vh;
+    margin-top: 0;
+    padding-bottom: 100%;
+
+}

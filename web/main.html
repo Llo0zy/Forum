@@ -7,26 +7,35 @@
     <meta name="robots" content="index"> <!-- Para que aparezca en los buscadores normales [noindex] -->
     <meta name="desprition" content="Un foro de programadores para compartir tus proyectos open source">
     <meta name="autor" content="Yoshi, DanielGP, segi, Gino"> <!-- Decir el creador de la pagina web --> 
-    <!-- <meta namee="copyright" content="Discord"> -->
-    <link href="./Styles/main.css" rel="stylesheet" type="text/css">
+    <!-- <meta name="copyright" content="Discord"> -->
+    <link  href="./Styles/Main html/nav.css" rel="stylesheet" type="text/css">
+    <link  href="./Styles/Main html/chat.css" rel="stylesheet" type="text/css">
+    <link  href="./Styles/Main html/footer.css" rel="stylesheet" type="text/css">
     <title>Forum Web</title>
 </head>
 <body>
     <div id="topbar">
         <nav id="top-nav">
-            Forum
+            <div id="main-nav">
+            <a href="#" target="_blank">Home</a>
+            <a href="#" target="_blank">Chats</a>
+            <a href="#" target="_blank">Friends</a>
+            <a href="#" target="_blank">Account</a>
+            </div>
+
+            <!-- <div id="pfp-nav">
+                <img src="/web/Images/profilepicture.jpg" alt="Una foto de perfil">
+            </div> -->
         </nav>
-
-        <div id="nav-chats">
-
-        </div>
     </div>     
     
     <main id="main-chat"> 
         <div id="messages-window">
-            main chat
         </div>
 
+        <div id="lista-chats">
+
+        </div>
         <div class="footer-main">
             <div id="main-placeholder">
                 
@@ -36,10 +45,6 @@
             </div>
         </div>
     </main>
-
-    <footer id="footer-body"> <!-- Aqui ponemos los creditos -->
-        footer
-    </footer>
     <!-- <div id="loggin-container">
         <div id="user-container">
             <input type="text" name="user-ph" id="user-ph" placeholder="Username"><br/>
