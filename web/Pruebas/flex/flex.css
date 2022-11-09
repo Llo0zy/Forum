@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+#gay {
+    margin: 20px;
+    padding: 25px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: red;
+    margin-bottom: 2;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: red;
+    margin: 20px;
+}
