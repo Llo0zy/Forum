@@ -18,6 +18,17 @@ body {
     padding-bottom: 100%;
 }
 
+#message-window {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    margin: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+    position: absolute;
+} 
+
 #lista-chats {
     width: 18vw;
     height: 80vh;
@@ -29,3 +40,67 @@ body {
     padding-bottom: 100%;
 
 }
+
+#footer-chat {
+    width: 50vw;
+    height: 50px;
+    background-color: transparent;
+
+    margin: auto;   
+    margin-top: 82vh;
+    margin-left: 20vh;
+    align-self: center;
+    align-items: center;
+
+    position: absolute; /* Para que se vea encima de otro div*/
+}
+
+#main-placeholder {
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    
+    align-self: center;
+
+    width: 50vw;
+    height: 50px;
+    background-color: transparent;
+    color: black;
+}
+
+/* El texto de Your message*/
+#placeholder-lb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.2s all;
+    cursor: text;
+  }
+  /* Texto del input*/
+  #placeholder-ip {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid;
+    box-shadow: inset;
+    color: #111;
+  }
+  /* Color barrita sin tocarla */
+  #placeholder-ip:invalid {
+    outline: 0;
+    color: #ff2300;
+    border-color: #ff2300;
+  }
+  /* Color barrita escribiendo*/
+  #placeholder-ip:focus,
+  #placeholder-ip:valid {
+    border-color: #00dd22;
+  }
+  #placeholder-ip:focus~#placeholder-lb,
+  #placeholder-ip:valid~#placeholder-lb {
+    font-size: 14px;
+    top: -24px;
+    color: #00dd22;
+  }
