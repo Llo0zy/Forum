@@ -42,13 +42,13 @@ body {
 }
 
 #footer-chat {
-    width: 50vw;
+    width: 55vw;
     height: 50px;
     background-color: transparent;
 
     margin: auto;   
     margin-bottom: -90vh;
-    margin-left: 20vh;
+    margin-left: 15vh; /* Centrado 20vh */
     align-self: center;
     align-items: center;
 
@@ -76,8 +76,10 @@ body {
     border-radius: 10px;
     outline: none;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
+    white-space: pre-wrap;
+    overflow: hidden;
 }
 
 #main-placeholder #placeholder-lb {
@@ -92,14 +94,15 @@ body {
 }
 
 #main-placeholder #placeholder-ip:focus ~label{
-    top: -32px;
+    top: -35px;
     background-color: transparent;
 }
 
 #main-placeholder  #placeholder-ip:valid ~label {
-    top: -32px;
+    top: -35px;
     background-color: transparent;
 }
+
 /*
 /* El texto de Your message*
 #placeholder-lb {
@@ -139,3 +142,11 @@ body {
   }
   */
 
+button {
+    left: 50vh;
+    top: 50vh;
+    position: relative;
+    margin: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
